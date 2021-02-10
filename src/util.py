@@ -29,7 +29,7 @@ def baseline_data(df, is_train=True):
 def load_data(df):
     y = None
     df = df.dropna()
-    desc_df = create_200(df)
+    desc_df = create200(df)
     # model = pickle.load(open(os.path.dirname(__file__) + "/model_q2.pkl", "rb"))
     # desc_df["pred_q2"] = model.predict(desc_df)
     PandasTools.AddMoleculeColumnToFrame(df,'SMILES')
