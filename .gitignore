@@ -1,2 +1,4 @@
 .vscode/*
 datasets/dataset.csv
+*.ipynb
+*.csv
